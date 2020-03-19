@@ -1,0 +1,138 @@
+body{
+    background-color: #485154;
+    margin: 0;
+    padding: 0;
+}
+#header{   
+    padding-top:30px ;
+    background-color: #1C2021;
+    width: 100%;
+    height: 20%;
+    box-shadow: 0px 0px 50px 0px;
+    font-family: Impact;
+    font-size: 45px;
+    color: #71848A;
+}
+
+#header h1{
+    display: inline;
+    margin-top: 25px;
+    color: #2ecc71;
+    padding-left: 10%;
+    cursor: default;
+}
+
+#navbar_container{
+    padding-left: 50px;
+    background-color: #1C2021;
+}
+
+#navbar {    
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;    
+}
+
+#navbar .navitem {
+    float: left;
+    border-right: 1px solid #bbb;
+}
+
+#navbar .navitem:first-child{
+    border-left: 1px solid #bbb;
+}
+
+#navbar .navitem:last-child {
+    border-right: none;
+    border-left: 1px solid #bbb;
+}
+
+#navbar .navitem  a {
+    cursor: pointer;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+#navbar .navitem  a:hover:not(.active) {
+    background-color: #111;
+}
+
+#navbar .logout{
+    float:right;
+}
+
+.active {    
+    background-color: #4CAF50;
+}
+
+#header_navbar{
+    margin: 0;
+    border-style: solid;
+    border-width: 1px;
+    border-color:  #485154;
+}
+
+
+
+body table,form{    
+    color : white;
+    display:inline-table;
+
+}
+
+body img{
+    cursor: pointer;
+    display: inline-table;
+    float : left;
+    border-color: black;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 5px;
+    height: 250px;
+    width: auto;
+    max-width: 250px;
+}
+body form{
+    float:right;
+}
+#f1
+{
+    display:none;
+}
+body fieldset
+{
+    margin-top: 25px;
+    height : 300px;
+    width:800px;
+    padding-top:30px;
+    padding-right: 50px;
+    padding-left: 50px;
+}
+.tb
+{
+    background-color: #485154;
+    border-color:  #485154;
+}
+#cancel
+{
+    display:none;
+    float:right;
+}
+#edit{
+    float:right;
+}
+.btn {
+    -webkit-border-radius: 28px;
+    -moz-border-radius: 28px;
+    border-radius: 28px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 15px;
+    background: #2ecc71;
+    padding: 7px 25px 7px 25px;
+    text-decoration: none;
+}

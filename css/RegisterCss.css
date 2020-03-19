@@ -1,0 +1,101 @@
+body
+{
+    background-color: #485154;
+    margin: 0;
+    padding: 0;
+}
+#header{   
+    padding-top:30px ;
+    background-color: #1C2021;
+    width: 100%;
+    height: 20%;
+    box-shadow: 0px 0px 50px 0px;
+    font-family: Impact;
+    font-size: 45px;
+    color: #71848A;
+}
+
+#header h1{
+    display: inline;
+    margin-top: 25px;
+    color: #2ecc71;
+    padding-left: 10%;
+    cursor: default;
+}
+form
+{
+    color:white;
+}
+
+#personal
+{
+    z-index: 1;
+}
+
+fieldset
+{
+    font-family: sans-serif;
+    margin-top: 8px;
+    height:260px;
+    width:500px;
+    background-color: #1C2021;
+    padding-top:30px;
+}
+
+#userpass
+{
+    display:none;
+    z-index: 0;
+}
+#profilepic
+{
+    display:none;
+    z-index: 0;
+}
+.circle {
+
+    width: 160px;
+    height: 45px;
+    -webkit-transform: skew(20deg);
+    -moz-transform: skew(20deg);
+    -o-transform: skew(20deg);
+    background: #2ecc71;
+    display:inline-block;
+    font-size: 23px;
+    color:white;
+    padding-top: 15px;
+    margin-top: 35px;
+    cursor: pointer;
+}
+
+.cActive{
+    background-color: black;
+}
+
+img
+{
+    max-width: 170px;
+    height:170px;
+    width:auto;
+}
+
+td{
+    padding: 7px;
+}
+
+.btn {
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 15px;
+    background: #2ecc71;
+    padding: 7px 25px 7px 25px;
+    text-decoration: none;
+}
+
+.btn:hover {
+    background: #a1a1a1;
+    text-decoration: none;
+}

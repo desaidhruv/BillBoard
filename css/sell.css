@@ -1,0 +1,235 @@
+body{
+    background-color: #485154;
+    margin: 0;
+    padding: 0;
+}
+#header{   
+    padding-top:30px ;
+    background-color: #1C2021;
+    width: 100%;
+    height: 20%;
+    box-shadow: 0px 0px 50px 0px;
+    font-family: Impact;
+    font-size: 45px;
+    color: #71848A;
+}
+
+#header h1{
+    display: inline;
+    margin-top: 25px;
+    color: #2ecc71;
+    padding-left: 10%;
+    cursor: default;
+}
+
+#navbar_container{
+    padding-left: 50px;
+    background-color: #1C2021;
+}
+
+#navbar {    
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;    
+}
+
+#navbar .navitem {
+    float: left;
+    border-right: 1px solid #bbb;
+}
+
+#navbar .navitem:first-child{
+    border-left: 1px solid #bbb;
+}
+
+#navbar .navitem:last-child {
+    border-right: none;
+    border-left: 1px solid #bbb;
+}
+
+#navbar .navitem  a {
+    cursor: pointer;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+#navbar .navitem  a:hover:not(.active) {
+    background-color: #111;
+}
+
+#navbar .logout{
+    float:right;
+}
+
+.active {    
+    background-color: #4CAF50;
+}
+
+#header_navbar{
+    margin: 0;
+    border-style: solid;
+    border-width: 1px;
+    border-color:  #485154;
+}
+
+#sellContainer{
+    position: relative;
+    width: 730px;
+    height: 400px;
+    background-color: #485154;
+    border-color: whitesmoke;
+    border-style: inset;
+    border-radius: 10px;
+    padding: 10px;
+    margin:10px
+}
+
+#addItem{
+    color: #2ecc71;
+    background-color: #1C2021;
+    padding:5px;
+    font-size: 25px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+#items{
+    overflow: auto;
+    width: 730px;
+    margin-top: 5px;
+    height: 350px;    
+    color:#71848A; 
+}
+
+.item{
+    float:left;
+    width: 150px;
+    margin: 5px;    
+    background-color: #1C2021;
+    color:white;
+    border-radius: 10px;
+    cursor: pointer;
+    padding: 10px;
+    display: inline-block;
+    text-align: left;
+}
+
+.item img{
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 5px;
+    border-color: white;
+    width: 150px;
+    height: 150px;
+}
+.itemName{
+    float: left;    
+    display: inline;
+    font-size: 20px;
+}
+.itemPrice{
+    float:right;    
+    display: inline;
+    font-size: 20px;
+}
+.itemDes{
+    text-align: center;
+    display: block;
+    font-size: 15px;
+}
+
+
+#AddItemModal table{
+    font-size: 25px;
+    color: black;
+    font-family: sans-serif;
+}
+
+#btn,#dele{
+    margin-right: 10px;
+    -webkit-border-radius: 28px;
+    -moz-border-radius: 28px;
+    border-radius: 28px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 15px;
+    background: #2ecc71;
+    padding: 7px 25px 7px 25px;
+    text-decoration: none;
+}
+
+#AddItemModal {
+    font-family: sans-serif;
+    background: whitesmoke;
+    z-index: 99999;
+    opacity:0;
+    -webkit-transition: opacity 400ms ease-in;
+    -moz-transition: opacity 400ms ease-in;
+    transition: opacity 400ms ease-in;    
+    display: none;
+    width: 700px;
+    position: relative;    
+    margin: 25px;
+    padding: 30px 30px 30px 30px;
+    border-radius: 10px;
+    background: #fff;
+    background: -moz-linear-gradient(#fff, #999);
+    background: -webkit-linear-gradient(#fff, #999);
+    background: -o-linear-gradient(#fff, #999);
+}
+
+.modalImage{
+    width:250px;
+    height: 250px;
+    display: inline-block;
+    cursor: pointer;
+    border-color: black;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 5px;
+}
+
+#AddItemModal form{
+    padding-left: 20px;
+    display: inline-block;
+}
+
+#AddItemModal a {
+    cursor: pointer;    
+    color: #2ecc71;
+    line-height: 25px;
+    position: absolute;
+    right: -12px;
+    text-align: center;
+    top: -10px;
+    width: 25px;    
+    font-size: 50px;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: arial;
+}
+
+#AddItemModal a:hover{
+    color: black;
+}
+
+#AddItemModal .tb {
+    border:2px solid #456879;
+    border-radius:10px;
+    height: 30px;
+    width: 230px;
+    font-size: 15px;
+}   
+
+#AddItemModal .sr{
+    width:60px;
+    height:60px;
+    cursor:pointer;
+    border-radius: 50%;
+    border-color: black;
+    border-width: 7px;    
+}
